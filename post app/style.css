@@ -1,0 +1,90 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+/* LOGIN */
+.container {
+  width: 320px;
+  max-width: 90%;
+  margin: 100px auto;
+  background: rgba(0,0,0,0.75);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+/* INPUT */
+input, textarea {
+  width: 95%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+/* BUTTON */
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* APP */
+#appPage {
+  display: none;
+  padding: 15px;
+}
+
+/* POST BOX */
+.post-box {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card p {
+  padding: 10px;
+}
+
+.actions {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 600px) {
+  .card img {
+    height: 200px;
+  }
+
+  .container {
+    margin: 60px auto;
+  }
+}
